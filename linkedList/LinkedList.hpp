@@ -40,13 +40,9 @@ bool LinkedList<T>::search(T value) const
 
 	for (int i = 1; i <= m_size; i++)
 	{
-		if (temp == nullptr)
+		if (temp->getValue() == value)
 		{
-			return false;
-		}
-		else if (temp->getValue() == value)
-		{
-			return true;
+			isFound = true;
 		}
 		else if (temp->getValue() != value)
 		{
