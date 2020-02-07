@@ -1,6 +1,6 @@
 /**
-*	@author 
-*	@date 
+*	@author : Joseph Duong
+*	@date : 02/07/2020
 *	@file main.cpp
 *	@brief driver for LinkedList demo
 */
@@ -13,8 +13,7 @@ int main(int argc, char** argv)
 	const int TEST_SIZE = 50;
 	Test_LinkedList tester(TEST_SIZE);
 	tester.runTests();
-	
+
 	return (0);
 
 }
-
